@@ -1,0 +1,136 @@
+#footer {
+	background: #f0f0f0;
+	padding: 2em 0 6em 0;
+	text-align: center;
+}
+
+#footer #footerContainer {
+	width: 75%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#footer .footItem{
+	height: 100%;
+	float: left;
+}
+
+#footer #subContent{
+	width: 25%;
+	text-align: center;
+}
+
+#footer #subContent ul li{
+	list-style: none;
+}
+
+#footer #subContent ul li a{
+	line-height: 30px;
+	letter-spacing: normal;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #626470;
+}
+
+#footer #aboutContent{
+	width: 50%;
+}
+
+#footer #companyContent{
+	width: 25%;
+}
+
+#footer #companyContent ul li{
+	list-style: none;
+    letter-spacing: normal;
+    line-height: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #626470;
+}
+
+#aboutContent h3{
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: normal;
+	line-height: 41px;
+	color: #626470;
+}
+
+#aboutContent p{
+	letter-spacing: normal;
+	line-height: 30px;
+	font-size: 1rem;
+    font-weight: 600;
+    color: #626470;
+}
+
+#companyContent ul li{
+	color: #000;
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: normal;
+	line-height: 21px;
+}
+
+#companyContent div{
+	padding-left: 4em;
+}
+
+#companyContent ul{
+	padding-left: 4em;
+	padding-top: 2em;
+}
+
+@media screen and (max-width: 980px) {
+	
+}
+
+@media screen and (max-width: 736px) {
+	#footer #subContent{
+		width: 100%;
+		text-align: center;
+	}
+
+	#footer #subContent ul{
+		margin: 0 auto;
+	}		
+
+	#footer #aboutContent{
+		width: 100%;
+		text-align: center;
+	}
+
+	#footer #companyContent{
+		width: 100%;
+		text-align: center;
+	}
+	#footer #footerContainer {
+		width: 100%;
+		text-align: center;
+	}
+
+	#footer .footItem{
+		padding-top: 2em 0em;
+		padding-bottom: 1em;
+	}
+
+	#aboutContent p{
+		font-size: 0.8em;
+		padding: 0 1em;
+	}
+
+	#companyContent div{
+		padding-left: 0px;
+	}
+
+	#companyContent ul {
+		padding-left: 0px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#aboutContent p{
+		font-size: 0.5em;
+	}
+}

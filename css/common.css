@@ -1,0 +1,18 @@
+* {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+a, a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+    -webkit-transition: all 0.1s linear;
+    color: #fff;
+    cursor: pointer;
+}
+
+body {
+	font-family: "Helvetica Neue", "Helvetica", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 16px;
+}
+
