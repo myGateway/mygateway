@@ -1,2 +1,2 @@
-# © 2017  All rights reserved. myGateway Confidential
+# Copyright © 2017 myGateway Inc. All rights reserved.
 
