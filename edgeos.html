@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<link href="css/common.css" rel="stylesheet" type="text/css"/>
-		<link href="css/home.css" rel="stylesheet" type="text/css"/>
 		<link href="css/nav.css" rel="stylesheet" type="text/css"/>
+		<link href="css/product.css" rel="stylesheet" type="text/css"/>
 		<link href="css/footer.css" rel="stylesheet" type="text/css"/>
 	</head>
 	<body>
@@ -48,94 +48,72 @@
 			</ul>
 		</nav>
 
-		<div id="banner" style="background-image: url(images/banner.jpg)">
-			<div id="title" class="banner_content">让企业部署边缘计算更容易</div>
-			<div id="sub_title" class="banner_content">帮您快速设计、开发和部署物联网边缘智能解决方案</div>
-			<div id="learn_more" class="banner_content"><a>下载EdgeOS</a></div>
 
-		</div>
+		<section id="product_banner">
+			<img src="images/mygateway-logo.png">
+			<h1 id="title">
+				<span>EdgeOS软件</span>
+			</h1>
+		</section>
 
 		<section id="first_section">
-			<span class="title" style="">我们为什么需要边缘计算？</span><br>
-			<span class="sub_title"></span><br>
-			<span class="sub_title"></span>
-			<div id="section_items">
-				<div class="item">
-					<img src="images/fir_section/1.png"><br><br>
-					<span>节省网络带宽</span>
+			<div class="container">
+				<div class="title">
+				        开放边缘网络设备操作系统
 				</div>
-				<div class="item">
-					<img src="images/fir_section/2.png"><br><br>
-					<span>减少传输延时</span>
+				<p class="description">
+				        我们专注于在网络接入设备上部署边缘应用和算法，产品基于<b>“软件定义网络”</b>架构，在各种网络接入设备上灵活部署边缘数据分析、应用和算法，帮助用户简化和加速边缘计算方案的部署。
+				</p>
+				<img src="images/edge.png"></div>
+
+				<div class="name_container">
+					<p>
+						<span class="name">EdgeOS系统架构</span>
+						<span class="property">软件定义</span>
+						<span class="property">简单易用</span>
+						<span class="property">开放灵活</span>
+						<span class="property">动态部署</span>
+					</p>
 				</div>
-				<div class="item">
-					<img src="images/fir_section/3.png"><br><br>
-					<span>确保数据安全</span>
-				</div>
-				<div class="item">
-					<img src="images/fir_section/4.png"><br><br>
-					<span>动态算法运维</span>
-				</div>
-				<div style="clear:both"></div>
 			</div>
 		</section>
 
-		<div style="clear:both"></div>
 
-		<section id="second_section">	
-			<div id="second_section_container">
-				<div class="title">myGateway解决方案</div>
-
-				<div class="item_container spliter">
-					<div class="item_img">
-						<img style="width: 98%; max-width: 387px" src="images/solution.png">
-					</div>
-					<div class="item_desciption">
-						<h3>设备和数据管理</h3>
-						<p>
-						       基于软件定义网络架构的边缘设备管理，边缘节点通信网络管理，传感器、边缘设备和用户数据管理。
-						</p>
-					</div>
-					<div style="clear:both"></div>
+		<section id="second_section" style="background-image: url(images/product/background_1.png)">
+			<div class="second_item">
+				<img  src="images/ecaas.png"/>
+				<div class="item_title">
+				        Edge as a Service
 				</div>
-
-				
-				<div class="item_container spliter">
-					<div class="item_desciption">
-						<h3>算法和应用运维</h3>
-						<p>
-						        基于NFV架构的业务应用、智能算法管理，动态运维及自动升级，SaaS类型的运维套件。
-						</p>
-					</div>
-					<div class="item_img">
-						<img style="width: 98%; max-width: 387px" src="images/solution.png">
-					</div>
-					<div style="clear:both"></div>
-				</div>
-
-				<div class="item_container">
-					<div class="item_img">
-						<img style="width: 98%; max-width: 387px" src="images/solution.png">
-					</div>
-					<div class="item_desciption">
-						<h3>设备和数据安全</h3>
-						<p>
-						       基于软件定义网络架构的边缘设备、数据和网络安全，保护企业数据的安全和隐私。
-						</p>
-					</div>
-					<div style="clear:both"></div>
-				</div>
+				<p class="item_description">
+				        SaaS边缘计算套件<br>支持本地或云平台部署<br>现有硬件设备上自动部署
+				</p>
 
 			</div>
+			<div class="second_item">
+				<img  src="images/run.png"/>
+				<div class="item_title">
+				        Running to Edge
+				</div>
+				<p class="item_description">
+				        云计算的下半场<br>物联网应用的关键点<br>简化&加速企业边缘计算部署
+				</p>
+			</div>
+			<div class="second_item">
+				<img  src="images/killer.png"/>
+				<div class="item_title">
+				        First Killer APP
+				</div>
+				<p class="item_description">
+				        视频应用场景<br>越来越多的数据量<br>实时数据处理/分析需求
+				</p>
+			</div>
+			<div style="clear:both;"></div>
 		</section>
 
-		<div style="clear:both"></div>
-
-		<div style="clear:both"></div>
-
-		<section id="fourth_section">
+                <section id="fourth_section">
 			<div id="fourth_section_container">
-				<div class="title">支持硬件列表</div>
+				<div class="title">支持硬件设备</div>
 				<div class="fouth_item">
 					<div>
 						<img src="images/intel.png"/>
@@ -146,22 +124,16 @@
 						<img src="images/aws.png"/>
 					</div>
 				</div>
-			        <div class="fouth_item">
-					<div>
-						<img src="images/aliyun.png"/>
-					</div>
-				</div>
-				
+			      
 			</div>
 		</section>
-	
-		<div style="clear:both"></div>
+
 
 		<footer id="footer">
 			<div id="footerContainer">
                 <div id="subContent" class="footItem">
                     <ul>
-                        <li><a href="https://mygateway.github.io/mygateway/">主页</a></li>
+                        <li><a href="https://mygateway.github.io/mygateway/index.html">主页</a></li>
                         <li><a href="https://mygateway.github.io/mygateway/">产品</a></li>
                         <li><a href="https://mygateway.github.io/mygateway/">方案</a></li>
                         <li><a href="https://mygateway.github.io/mygateway/about.html">我们</a></li>
@@ -170,7 +142,7 @@
                 <div id="aboutContent" class="footItem">
                     <h3>关于myGateway</h3>
                     <p>
-                        myGateway是国内领先的边缘计算技术供应商。我们专注于在网络接入设备上部署边缘应用和算法，产品基于“软件定义网络”架构，在各种网络接入设备上灵活部署边缘数据分析、应用和算法，帮助企业简化和加速边缘计算方案的部署。                   </p>
+                        myGateway是国内领先的边缘计算技术供应商。我们专注于在网络接入设备上部署边缘应用和算法，产品基于“软件定义网络”架构，在各种网络接入设备上灵活部署边缘数据分析、应用和算法，帮助企业简化和加速边缘计算方案的部署。  </p>
                 </div>
 
                 <div id="companyContent" class="footItem">
